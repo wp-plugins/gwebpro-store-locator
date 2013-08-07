@@ -62,7 +62,7 @@ Gwebpro Store Locator plugin contains entire functionality to help add multiple 
 1. Gwebpro Storlocator Map search
 2. Gwebpro Storlocator autocomplete search
 3. Gwebpro Storlocator store lists
-4. Gwebpro Storlocator admin store add/edit
+4. Gwebpro Storlocator admin store add or edit
 5. Gwebpro Storlocator admin store settings
 
 More screenshots are available via the [G Web Pro website](http://www.gwebpro.com/products/store_locator/).
