@@ -16,9 +16,9 @@ Gwebpro store locator is a unique location finder system that helps you find and
 Learn more about [Gwebpro Store Locator at G web Pro](http://www.gwebpro.com/products/store_locator/),[More screen shots](http://www.gwebpro.com/products/store_locator/),[Technical documentation](http://www.gwebpro.com/products/store_locator/documentation/technical-documentation/).
 You also can download it from [G Web Pro](http://www.gwebpro.com) site.
 
-= What’s different? =
+= What's different? =
 
-1.	Gwebpro store locator is extremely flexible and doesn’t require any special program or extra steps to follow.
+1.	Gwebpro store locator is extremely flexible and doesn't require any special program or extra steps to follow.
 2.	Automatically find your current location and find nearest stores.
 3.	Change your current location easily by typing in the city name or zip or street name in the enter location field. Users also receive a list of suggestions that populates automatically.
 4.	Additionally, drag the pin to change your current location.
@@ -31,12 +31,12 @@ You also can download it from [G Web Pro](http://www.gwebpro.com) site.
 1.	You can use it to add both stores as well as store categories.
 2.	Flexibility to add your store address and store location in the map, at the time of adding a store.
 3.	It auto populates a list of suggestions when adding your city, state, country. 
-4.	Set map height, width and no of stores to be displayed on one page. Specify or limit the radius for search from visitor’s current location.
+4.	Set map height, width and no of stores to be displayed on one page. Specify or limit the radius for search from visitor's current location.
 5.	Display your store in the front end by adding [GwebproStoreLocator] short code.
-6.	Displays nearest stores automatically against visitor’s current location (within a specified radius) from the admin.
+6.	Displays nearest stores automatically against visitor's current location (within a specified radius) from the admin.
 7.	Visitors can change their location by entering city, place or zip in the Change location field. Users receive a list of suggestions that populates automatically. 
 8.	Displays the current position of the user and store locations with different coloured pins to easily understand store locations.
-9.	Flexibility to drag and change visitor’s current location by dragging and dropping visitor’s current location pin. Users can easily change their location and search stores accordingly.
+9.	Flexibility to drag and change visitor's current location by dragging and dropping visitor's current location pin. Users can easily change their location and search stores accordingly.
 10.	Clicking the store pins shows the store address followed by the direction and distance to navigate easily.
 11.	Visitors can search a store from the lists of stores by inserting any related keyword. 
 
@@ -61,7 +61,7 @@ Users looking to customize the look and feel of the Search form along with Map a
 
 = A question that someone might have =
 
-What’s there in this plugin? 
+What's there in this plugin? 
 
 Gwebpro Store Locator plugin contains entire functionality to help add multiple locations via a store finder tool that can be added to your website. Users can find any number of locations and find them on the map for easy navigation from their own location. All basic functionality needed for a fully functional plugin is included. Basic upgrades are free of cost and are directly available from the WordPress plugin repository.
 
