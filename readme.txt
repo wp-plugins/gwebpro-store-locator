@@ -13,10 +13,8 @@ Introducing a unique and ultra-modern location management system that lets you a
 == Description ==
 
 Gwebpro store locator is a unique location finder system that helps you find and manage multiple physical locations within and via an integrated Wordpress platform. No matter how many locations you want to add or list, Gwebpro Store Locator manages to ease out the process by a simple operating process right from the Admin panel.  All you need to do, is just put [GwebproStoreLocator] to your page in order to integrate this plugin.
-Learn more about [Gwebpro Store Locator at G web Pro](
-http://www.gwebpro.com/products/store_locator/)
-[more screen shots](http://www.gwebpro.com/products/store_locator/)
-[Technical documentation](http://www.gwebpro.com/products/store_locator/documentation/technical-documentation/).
+Learn more about [Gwebpro Store Locator at G web Pro](http://www.gwebpro.com/products/store_locator/),[More screen shots](http://www.gwebpro.com/products/store_locator/),[Technical documentation](http://www.gwebpro.com/products/store_locator/documentation/technical-documentation/).
+You also can download it from [G Web Pro](http://www.gwebpro.com) site.
 
 = What’s different? =
 
