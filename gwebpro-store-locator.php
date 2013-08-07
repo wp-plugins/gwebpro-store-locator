@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Gwebpro Store Locator
-Plugin URI: http://www.gwebpro.com/store_locator/
+Plugin URI: http://www.gwebpro.com/Services/wordpress-plugin.html
 Description: Find nearest store from your current location.  Also change your current location from the map or search by entering your current address or city name or store name. You get the complete flexibility in searching the store.
 Author: G web pro
 Version: 1.0

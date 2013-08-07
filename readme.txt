@@ -1,6 +1,6 @@
 === Gwebpro Store Locator ===
 Contributors: G Web Pro
-Donate link: http://www.gwebpro.com/products/store_locator/
+Donate link: http://www.gwebpro.com/Services/wordpress-plugin.html
 Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
 Requires at least: 3.3
 Tested up to: 3.5.2
@@ -13,7 +13,7 @@ Introducing a unique and ultra-modern location management system that lets you a
 == Description ==
 
 Gwebpro store locator is a unique location finder system that helps you find and manage multiple physical locations within and via an integrated Wordpress platform. No matter how many locations you want to add or list, Gwebpro Store Locator manages to ease out the process by a simple operating process right from the Admin panel.  All you need to do, is just put [GwebproStoreLocator] to your page in order to integrate this plugin.
-Learn more about [Gwebpro Store Locator at G web Pro](http://www.gwebpro.com/products/store_locator/),[More screen shots](http://www.gwebpro.com/products/store_locator/),[Technical documentation](http://www.gwebpro.com/products/store_locator/documentation/technical-documentation/).
+Learn more about [Gwebpro Store Locator at G web Pro](http://www.gwebpro.com/Services/wordpress-plugin.html),[More screen shots](http://www.gwebpro.com/Services/wordpress-plugin.html),[Technical documentation](http://www.gwebpro.com/Services/wordpress-plugin.html).
 You also can download it from [G Web Pro](http://www.gwebpro.com) site.
 
 = What's different? =
@@ -73,7 +73,7 @@ Gwebpro Store Locator plugin contains entire functionality to help add multiple 
 4. Gwebpro Storlocator admin store add or edit
 5. Gwebpro Storlocator admin store settings
 
-More screenshots are available via the [G Web Pro website](http://www.gwebpro.com/products/store_locator/).
+More screenshots are available via the [G Web Pro website](http://www.gwebpro.com/Services/wordpress-plugin.html).
 
 == Changelog ==
 
@@ -83,4 +83,4 @@ Released stable version 1.0
 
 We update about once per month or more frequently as needed.
 
-Visit http://www.gwebpro.com/products/store_locator/ for more update info.
+Visit [G Web Pro website](http://www.gwebpro.com/Services/wordpress-plugin.html) for more update info.
