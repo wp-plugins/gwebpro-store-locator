@@ -18,7 +18,17 @@ http://www.gwebpro.com/products/store_locator/)
 [more screen shots](http://www.gwebpro.com/products/store_locator/)
 [Technical documentation](http://www.gwebpro.com/products/store_locator/documentation/technical-documentation/).
 
-== Key features ==
+= What’s different? =
+
+1.	Gwebpro store locator is extremely flexible and doesn’t require any special program or extra steps to follow.
+2.	Automatically find your current location and find nearest stores.
+3.	Change your current location easily by typing in the city name or zip or street name in the enter location field. Users also receive a list of suggestions that populates automatically.
+4.	Additionally, drag the pin to change your current location.
+5.	Visitors can easily search locations by keyword.
+6.	Inserting the short code [GwebproStoreLocator] lets you create an interactive search form and Google map.
+7.	Navigate to Settings under Admin Panel for advanced customization. You can add little useful details like store description, store picture, website and contact info with phone number and email address. Also, a visitor can change map types (terrain, satellite, standard views).
+
+= Key features =
 
 1.	You can use it to add both stores as well as store categories.
 2.	Flexibility to add your store address and store location in the map, at the time of adding a store.
@@ -33,21 +43,21 @@ http://www.gwebpro.com/products/store_locator/)
 11.	Visitors can search a store from the lists of stores by inserting any related keyword. 
 
 
-== What’s different? ==
+= Support =
 
-1.	Gwebpro store locator is extremely flexible and doesn’t require any special program or extra steps to follow.
-2.	Automatically find your current location and find nearest stores.
-3.	Change your current location easily by typing in the city name or zip or street name in the enter location field. Users also receive a list of suggestions that populates automatically.
-4.	Additionally, drag the pin to change your current location.
-5.	Visitors can easily search locations by keyword.
-6.	Inserting the short code [GwebproStoreLocator] lets you create an interactive search form and Google map.
-7.	Navigate to Settings under Admin Panel for advanced customization. You can add little useful details like store description, store picture, website and contact info with phone number and email address. Also, a visitor can change map types (terrain, satellite, standard views).
+For any kind of additional support, please drop us a mail at info@gwebpro.com
 
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `<?php do_action('[GwebproStoreLocator]'); ?>` in your templates or Create or edit a page and add the [GwebproStoreLocator] short code.
+
+= Icons =
+
+The system comes pre-loaded with a set of default icons in the wp-content\plugins\gwebpro-store-locator\images directory. Add your own custom icons in the directory to replace the existing icons.
+Custom Styling
+Users looking to customize the look and feel of the Search form along with Map and Search Results can easily change by modifying the CSS plugin.
 
 == Frequently asked questions ==
 
@@ -76,13 +86,3 @@ Released stable version 1.0
 We update about once per month or more frequently as needed.
 
 Visit http://www.gwebpro.com/products/store_locator/ for more update info.
-
-== Icons ==
-
-The system comes pre-loaded with a set of default icons in the wp-content\plugins\gwebpro-store-locator\images directory. Add your own custom icons in the directory to replace the existing icons.
-Custom Styling
-Users looking to customize the look and feel of the Search form along with Map and Search Results can easily change by modifying the CSS plugin.
-
-== Support ==
-
-For any kind of additional support, please drop us a mail at info@gwebpro.com
