@@ -8,7 +8,7 @@ Version: 1.0
 Author URI: http://www.gwebpro.com
 License: GPL2
 
-Copyright 2013  G web pro (email : info@gwebpro.com)
+Copyright 2013  G web pro (email : support@gwebpro.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
