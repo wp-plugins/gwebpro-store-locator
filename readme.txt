@@ -28,6 +28,8 @@ You also can download it from [G Web Pro](http://www.gwebpro.com) site.
 6.	Inserting the short code [GwebproStoreLocator] lets you create an interactive search form and Google map.
 7.	Navigate to Settings under Admin Panel for advanced customization. You can add little useful details like store description, store picture, website and contact info with phone number and email address. Also, a visitor can change map types (terrain, satellite, standard views).
 
+[youtube http://www.youtube.com/watch?v=cA5jF2pUrUU]
+
 = Key features =
 
 1.	You can use it to add both stores as well as store categories.
@@ -49,9 +51,10 @@ For any kind of additional support, please drop us a mail at support@gwebpro.com
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place `<?php do_action('[GwebproStoreLocator]'); ?>` in your templates or Create or edit a page and add the [GwebproStoreLocator] short code.
+1. Click on add new plugin.
+2. Search 'Gwebpro store locator' and install it.
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Place `<?php do_action('[GwebproStoreLocator]'); ?>` in your templates or Create or edit a page and add the [GwebproStoreLocator] short code.
 
 = Icons =
 
