@@ -1,5 +1,6 @@
 === Gwebpro Store Locator ===
-Contributors: G Web Pro
+Plugin Name:  Gwebpro Store Locator
+Contributors: moonheart
 Donate link: http://www.gwebpro.com/Services/wordpress-plugin.html
 Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
 Requires at least: 3.3
