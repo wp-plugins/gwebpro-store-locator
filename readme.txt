@@ -5,7 +5,7 @@ Donate link: http://www.gwebpro.com/Services/wordpress-plugin.html
 Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
 Requires at least: 3.3
 Tested up to: 3.5.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,7 +83,11 @@ More screenshots are available via the [G Web Pro website](http://www.gwebpro.co
 
 == Changelog ==
 
-Released stable version 1.0
+= 1.0.1 =
+* Enhancement: Flexible settings for distance unit. Change distance unit between Miles and Kilometers.
+
+= 1.0 =
+* Released stable version 1.0
 
 == Upgrade notice ==
 

@@ -4,7 +4,7 @@ Plugin Name: Gwebpro Store Locator
 Plugin URI: http://www.gwebpro.com/Services/wordpress-plugin.html
 Description: Find nearest store from your current location.  Also change your current location from the map or search by entering your current address or city name or store name. You get the complete flexibility in searching the store.
 Author: G web pro
-Version: 1.0
+Version: 1.0.1
 Author URI: http://www.gwebpro.com
 License: GPL2
 
@@ -161,6 +161,7 @@ class gwebproStoreLocator {
 		$map_width = (get_option('map_width') != '') ? get_option('map_width') : '';
 		$store_per_page = (get_option('store_per_page') != '') ? get_option('store_per_page') : '';
 		$radius = (get_option('radius') != '') ? get_option('radius') : '';
+		$distance_unit = (get_option('distance_unit') != '') ? get_option('distance_unit') : '';
 		$html = '
 		<div class="wrap">
            <form method="post" name="options" action="options.php">
@@ -193,14 +194,26 @@ class gwebproStoreLocator {
                 </tr>
 				<tr>
                     <td align="left" scope="row" style="width:120px">
-                    	<label>Display Radius (Km)</label>
+                    	<label>Display Radius </label>
                     </td> 
-					<td align="left"><input type="text" class="regular-text" value="' . $radius . '" name="radius" /></td>
+					<td align="left">
+						<input type="text" class="regular-text" value="' . $radius . '" name="radius" />
+						<select name="distance_unit">';
+						if($distance_unit=="Km")
+							$html.= '<option value="Km" selected>Kilometers</option>';
+						else
+							$html.= '<option value="Km">Kilometers</option>';
+						if($distance_unit=="Miles")
+							$html.= '<option value="Miles" selected>Miles</option>';
+						else
+							$html.= '<option value="Miles">Miles</option>';
+			 $html.= '</select>
+					</td>
                 </tr>
             </table>
             <p class="submit">
                 <input type="hidden" name="action" value="update" />  
-                <input type="hidden" name="page_options" value="api_key,map_width,map_height,store_per_page,radius" /> 
+                <input type="hidden" name="page_options" value="api_key,map_width,map_height,store_per_page,radius,distance_unit" /> 
                 <input type="submit" name="Submit" value="Update" class="button button-primary" />
             </p>
             </form>
@@ -385,7 +398,12 @@ class gwebproStoreLocator {
 		$dest = $this->get_queryvar('dest');
 		$q = $this->get_queryvar('q');
 		if(get_option('radius'))
-			$rad=floatval(get_option('radius'))*0.621371;
+		{
+			if(get_option('distance_unit')=="Km")
+				$rad=floatval(get_option('radius'))*0.621371;
+			else
+				$rad=floatval(get_option('radius'));
+		}
 		else
 			$rad=6.21371;
 		if($lat=="" && $long=="")
@@ -450,7 +468,9 @@ class gwebproStoreLocator {
                         <?php if($url!=""){?><div class="store_img"><?php echo $url;?></div><?php }?>
                         <div class="left">
                             <h3><?php echo get_the_title()?></h3>
-                            <p><strong>Distance:</strong> <?php echo round($this->distance($lat, $long, $lat_p, $long_p, "K"),2) . " Kilometers";?> (Approx.)</p>
+                            <p><strong>Distance:</strong> 
+							<?php if(get_option('distance_unit')=="Km") echo round($this->distance($lat, $long, $lat_p, $long_p, "K"),2) . " Kilometers"; else echo round($this->distance($lat, $long, $lat_p, $long_p, ""),2) . " Miles";?> (Approx.)
+                            </p>
                             <div class="store_content"><?php echo get_the_content(); ?></div>
                             <?php if($email!=""){?><p><a href="mailto:<?php echo $email?>"><?php echo $email?></a></p><?php }?>
                             <p><a href="<?php echo $website?>" <?php if($website!="#"){?>target="_blank"<?php }?>><?php echo $website?></a></p>
