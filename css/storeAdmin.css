@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.loading_lat_button{display:inline-block; border-radius:5px 5px 5px 5px;}
+.loading_lat{height:16px; width:16px; background:url(../images/loading.gif) no-repeat left top;display:none;margin:0 0 0 9px;position: relative;}
+.validation-failed{border-color:#FF5A00!important;}
+.location .location_input input {width:99%; background:#ffffff; padding:8px 5px; border:1px solid #DFDFDF; color:#333333; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px;}
+#location {width:100%;}
+#location .location_field {width:120px;}
+.additional .additional_input input {width:99%; background:#ffffff; padding:8px 5px; border:1px solid #DFDFDF; color:#333333; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px;}
+#additional {width:100%;}
+#additional .additional_field {width:120px;}
