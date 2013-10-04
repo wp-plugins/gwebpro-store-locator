@@ -4,7 +4,7 @@ Plugin Name: Gwebpro Store Locator
 Plugin URI: http://www.gwebpro.com/Services/wordpress-plugin.html
 Description: Find nearest store from your current location.  Also change your current location from the map or search by entering your current address or city name or store name. You get the complete flexibility in searching the store.
 Author: G web pro
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://www.gwebpro.com
 License: GPL2
 
@@ -420,7 +420,7 @@ class gwebproStoreLocator {
 		add_filter('posts_where', array(&$this, 'location_where'), 10, 2 );
 		$loop = new WP_Query( $args );
 		$sql='SELECT SQL_CALC_FOUND_ROWS 
-		3956 * 2 * ASIN(SQRT( POWER(SIN(('.$lat.' -abs(lat.meta_value)) * pi()/180 / 2),2) + COS('.$lat.' * pi()/180 ) * COS( abs(lat.meta_value) *  pi()/180) * POWER(SIN(('.$long.' - lng.meta_value) *  pi()/180 / 2), 2) )) AS distance,';
+		3956 * 2 * ASIN(SQRT( POWER(SIN(('.$lat.' -(lat.meta_value)) * pi()/180 / 2),2) + COS('.$lat.' * pi()/180 ) * COS( abs(lat.meta_value) *  pi()/180) * POWER(SIN(('.$long.' - lng.meta_value) *  pi()/180 / 2), 2) )) AS distance,';
 		$request = str_replace("SQL_CALC_FOUND_ROWS","", $loop->request);
 		$request = str_replace("SELECT", $sql, $request);
 		$request = str_replace("ORDER BY", "having distance < ".$rad." ORDER BY", $request);
