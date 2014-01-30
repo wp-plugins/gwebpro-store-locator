@@ -10,6 +10,7 @@
 	var currentLat = '<?php echo $latlong[0]?>';
 	var currentLong = '<?php echo $latlong[1]?>';
 	var geocoder = new google.maps.Geocoder();
+	var bounds = new google.maps.LatLngBounds();
 	
 	lat='<?php if(isset($lat) && $lat!="") echo $lat;?>';
 	long='<?php if(isset($long) && $long!="") echo $long;?>';
@@ -74,6 +75,7 @@
 	{
 		for (i = 0; i < stores.length; i++) {
 			var position = new google.maps.LatLng(stores[i][0], stores[i][1]);
+			bounds.extend(position);
 			var markerOptions = {
 				position: position,
 				map: map,
@@ -81,6 +83,8 @@
 			}
 			marker = new google.maps.Marker(markerOptions);
 			markers.push(marker);
+			map.fitBounds(bounds);
+    		map.panToBounds(bounds);
 			google.maps.event.addListener(marker, 'click', (function (marker, i) {
 				return function () {
 					var e=this;
@@ -182,6 +186,10 @@
 		}
 		return escape(result);
 	}
+	window.onload = loadScript;
+	function loadScript() {
+        jQuery('html, body').animate({scrollTop: jQuery('.home_map').offset().top-50}, 2100);
+    }
 </script>
 <div class="inner_wrap">
     <div class="inner_contarea">

@@ -4,8 +4,8 @@ Contributors: G Web Pro
 Donate link: http://www.gwebpro.com/Services/wordpress-plugin.html
 Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
 Requires at least: 3.3
-Tested up to: 3.6.1
-Stable tag: 1.0.2
+Tested up to: 3.8.1
+Stable tag: 1.0.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,9 @@ Gwebpro Store Locator plugin contains entire functionality to help add multiple 
 More screenshots are available via the [G Web Pro website](http://www.gwebpro.com/Services/wordpress-plugin.html).
 
 == Changelog ==
+
+= 1.0.3 =
+* Enhancement: Stores show in the order of distance. Fixes for map for showing all the stores at a time in the map. 
 
 = 1.0.2 =
 * Enhancement: Fixed bugs for Australian countries store search.

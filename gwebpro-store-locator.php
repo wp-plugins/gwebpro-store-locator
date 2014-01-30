@@ -424,6 +424,7 @@ class gwebproStoreLocator {
 		$request = str_replace("SQL_CALC_FOUND_ROWS","", $loop->request);
 		$request = str_replace("SELECT", $sql, $request);
 		$request = str_replace("ORDER BY", "having distance < ".$rad." ORDER BY", $request);
+		$request = str_replace("wp_posts.post_date DESC", "distance ASC", $request);
 		//echo $request;
 		$result1=$wpdb->get_results($request);
 		$ids=array();
@@ -438,6 +439,7 @@ class gwebproStoreLocator {
 		else
 			$args['posts_per_page']=get_option('store_per_page');
 		$args['paged']= $paged;
+		$args['orderby']= 'post__in';
 		?>
 		<ul class="content">
 		<?php
