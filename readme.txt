@@ -2,9 +2,9 @@
 Plugin Name:  Gwebpro Store Locator
 Contributors: G Web Pro
 Donate link: http://www.gwebpro.com/wordpress-plugin.html
-Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
+Tags: Store Locator, Store Finder, G Web Pro,store, store locator,location management,location map,Responsive,mapping,map,maps,marker,locations,place,store,dealer,shop,business,retail,brick,mortar,directory,google,bing,coordinates,latitude,longitude,geo,geocoding,miles,kilometers,locator,finder,search,mapper,zipcode,name,radius
 Requires at least: 3.3
-Tested up to: 3.8.1
+Tested up to: 4.0.0
 Stable tag: 1.0.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,6 +14,8 @@ Introducing a unique and ultra-modern location management system that lets you a
 == Description ==
 
 Gwebpro store locator is a unique location finder system that helps you find and manage multiple physical locations within and via an integrated Wordpress platform. No matter how many locations you want to add or list, Gwebpro Store Locator manages to ease out the process by a simple operating process right from the Admin panel.  All you need to do, is just put [GwebproStoreLocator] to your page in order to integrate this plugin.
+
+New Paid version of Gwebpro Store Locator released with more advanced features. Responsive version also available. Supported on all devices . [Please check out the features here](http://gwebpro.com/wordpress-plugin/gwebpro-store-locator.html).
 
 Learn more about [Gwebpro Store Locator at G web Pro](http://www.gwebpro.com/wordpress-plugin.html),[More screen shots](http://www.gwebpro.com/wordpress-plugin.html),[Technical documentation](http://www.gwebpro.com/wordpress-plugin.html).
 
