@@ -4,7 +4,7 @@ Plugin Name: Gwebpro Store Locator
 Plugin URI: http://www.gwebpro.com/Services/wordpress-plugin.html
 Description: Find nearest store from your current location.  Also change your current location from the map or search by entering your current address or city name or store name. You get the complete flexibility in searching the store.
 Author: G web pro
-Version: 1.0.3
+Version: 1.0.4
 Author URI: http://www.gwebpro.com
 License: GPL2
 
@@ -360,6 +360,12 @@ class gwebproStoreLocator {
 		return $where;
 	}
 	
+	function my_posts_groupby($groupby) {
+		global $wpdb;
+		$groupby = "{$wpdb->posts}.ID";
+		return $groupby;
+	}
+	
 	function getCurrentLatLng()
 	{
 		$ip_addr = $_SERVER['REMOTE_ADDR'];
@@ -418,13 +424,14 @@ class gwebproStoreLocator {
 		add_filter( 'posts_where', array(&$this, 'title_filter'), 10, 2 );
 		add_filter( 'posts_join', array(&$this, 'location_join') );
 		add_filter('posts_where', array(&$this, 'location_where'), 10, 2 );
+		add_filter( 'posts_groupby', array(&$this, 'my_posts_groupby') );
 		$loop = new WP_Query( $args );
 		$sql='SELECT SQL_CALC_FOUND_ROWS 
 		3956 * 2 * ASIN(SQRT( POWER(SIN(('.$lat.' -(lat.meta_value)) * pi()/180 / 2),2) + COS('.$lat.' * pi()/180 ) * COS( abs(lat.meta_value) *  pi()/180) * POWER(SIN(('.$long.' - lng.meta_value) *  pi()/180 / 2), 2) )) AS distance,';
 		$request = str_replace("SQL_CALC_FOUND_ROWS","", $loop->request);
 		$request = str_replace("SELECT", $sql, $request);
 		$request = str_replace("ORDER BY", "having distance < ".$rad." ORDER BY", $request);
-		$request = str_replace("wp_posts.post_date DESC", "distance ASC", $request);
+		$request = str_replace($wpdb->prefix ."posts.post_date DESC", "distance ASC", $request);
 		//echo $request;
 		$result1=$wpdb->get_results($request);
 		$ids=array();
@@ -433,6 +440,7 @@ class gwebproStoreLocator {
 		remove_filter( 'posts_where', array(&$this,'title_filter'), 10, 2 );
 		remove_filter( 'posts_join', array(&$this, 'location_join') );
 		remove_filter('posts_where', array(&$this, 'location_where'), 10, 2 );
+		remove_filter( 'posts_groupby', array(&$this, 'my_posts_groupby') );
 		$args['post__in'] = $ids;
 		if(get_option('store_per_page')=="")
 			$args['posts_per_page']=5;
