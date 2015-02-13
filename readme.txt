@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Introducing a unique and ultra-modern location management system that lets you add a Location Finder option directly to your site.
 
-== About Gwebpro store locator ==
+== Description ==
 
 The Gwebpro WordPress store locator Plugin is a unique location address finder and directory system that helps you find and manage multiple physical locations within and via an integrated WordPress platform. A simplified yet advanced location system irrespective of the number store or product locations you want to add or list, the Gwebpro Store Locator Plugin manages to ease out the procedure by a simple operating process directly accessible from the Admin panel. Designed for every kind of user, it is extremely easy to integrate this Plugin into your website, make it functional and establish your physical presence on Google Maps.  
 
