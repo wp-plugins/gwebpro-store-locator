@@ -297,8 +297,10 @@ class gwebproStoreLocator {
   }
   
    function store_frontend() {
+	   	ob_start();
 	  	global $store;
 		include('gwebpro-store-locator-frontend.php');
+		return ob_get_clean();
    }
    
     function wp_enqueue_frontend_scripts()
