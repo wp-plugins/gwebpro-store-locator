@@ -74,7 +74,7 @@ The basic version of the Gwebpro WordPress store locator Plugin is FREE and has 
 10.	Inserting the short code [Gwebpro Store Locator] lets you create an interactive search form and sets your business up on Google Maps.
 11.	Navigate to Settings under Admin Panel for advanced customization. You can add useful details like store description, store picture, website and contact information with phone numbers and email address. You can also add more categories for your store for better search results. 
 12.	Store details can appear in a separate for ease of use if you desire so.  
-13.	 Also, a visitor can change map types (terrain, satellite, standard views) and default zoom level to suit his requirement. Lets visitors set map height, width and number of stores to be displayed on a single page during searches. Opting for the paid versions of the Plugin lets users’ select add-on features to plump up your store locator. 
+13.	 Also, a visitor can change map types (terrain, satellite, standard views) and default zoom level to suit his requirement. Lets visitors set map height, width and number of stores to be displayed on a single page during searches. Opting for the paid versions of the Plugin lets user's select add-on features to plump up your store locator. 
 14.	As a user, you can have the option of showing or hiding the map, depending on your preferences.
 15.	Allows you to preset, specify or limit the display radius as per your choice and choose between miles or kilometres for precise distances. 
 16.	Displays nearest stores automatically against visitor's current location (within a specified radius) from the admin. 
@@ -89,7 +89,7 @@ The basic version of the Gwebpro WordPress store locator Plugin is FREE and has 
 
 You can get all the about the perfect Gwebpro WordPress store locator Plugin information at http://www.gwebpro.com/gwebpro-store-locator/ which is packed with notes, screenshots and tutorials replete with all the technical knowhow to help you go about installing the Plugin. Our Support page provides answers to all the technical hitches faced by users. For any kind of additional support or information, please drop us a mail at support@Gwebpro.com 
 
-Learn more about [our unique store locator plugin at GWebPro.com](http://www.gwebpro.com/wordpress-plugin.html). You can also download the basic WordPress store locator Plugin version from our website [GWebPro.com](http://www.gwebpro.com/gwebpro-store-locator) absolutely FREE
+Learn more about [our unique store locator plugin at GWebPro.com](http://www.gwebpro.com/wordpress-plugin.html). You can also download the basic WordPress store locator Plugin version from our website [GWebPro.com](http://www.gwebpro.com/gwebpro-store-locator) absolutely FREE.
 
 
 == Installation ==
